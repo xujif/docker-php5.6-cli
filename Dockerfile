@@ -1,4 +1,4 @@
-FROM daocloud.io/centos:6
+FROM centos:6
 MAINTAINER xujif <i@xujif.com>
 RUN rpm -Uvh https://mirror.webtatic.com/yum/el6/latest.rpm
 RUN yum update -y
